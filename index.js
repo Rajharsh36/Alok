@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 app.get("/img", (req, res) => {
     res.sendFile(path.join(__dirname, "img.jpg"));
 });
+app.get("/icon", (req, res) => {
+    res.sendFile(path.join(__dirname, "ic.png"));
+});
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
