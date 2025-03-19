@@ -1,0 +1,14 @@
+{
+  "name": "alok",
+  "version": "1.0.0",
+  "description": "A personal portfolio website for a national-level handball champion.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "alok",
+  "license": "MIT"
+}
